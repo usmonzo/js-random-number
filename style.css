@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Economica:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Economica", sans-serif;
+  transition: all 0.3s;
+}
+
+body {
+  height: 100vh;
+  background-color: #393939;
+}
+
+.container {
+  background-color: #fff;
+  width: 34vw;
+  min-width: 34em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 3em;
+  border-radius: 12px;
+  box-shadow: 0 1.2em 2.8em rgba(0, 41, 22, 0.2);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3em;
+}
+
+label {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #242e4c;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 1.8em;
+  border: none;
+  color: #444b5f;
+  border-bottom: 1px solid #242e4c;
+  padding: 0.45em;
+  margin-top: 0.45em;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #252525;
+  border-radius: 10px;
+}
+
+button#generate {
+  display: block;
+  width: 100%;
+  font-size: 1.8em;
+  margin: 2.7em 0 1.1em 0;
+  background-color: #252525;
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  color: #fff;
+}
+
+#result {
+  text-align: center;
+  font-size: 5.7em;
+  font-weight: 600;
+  color: #242e4c;
+}
